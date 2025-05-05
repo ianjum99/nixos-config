@@ -1,0 +1,28 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "weather", "network", "pulseaudio", "tray"],
+
+  "weather": {
+    "interval": 600,
+    "format": "{temperature}°C {weather}",
+    "format-icons": ["", "", "", ""],
+    "openweathermap-api-key": "YOUR_API_KEY",
+    "openweathermap-city-id": "2643743",
+    "units": "metric"
+  },
+
+  "clock": {
+    "format": "{:%a %d %b  %H:%M}",
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "calendar": {
+      "mode": "monthly",
+      "weeks-pos": "right",
+      "format": {
+        "today": "<span color='#89b4fa'><b>{}</b></span>"
+      }
+    }
+  }
+}

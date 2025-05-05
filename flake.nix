@@ -28,7 +28,7 @@
             home-manager = {
               useUserPackages = true;
               useGlobalPkgs = true;
-              users.ibrahim-nix = import ./home/ibrahim-nix.nix;
+              users.yourUsername = import ./home/ibrahimNix.nix;
             };
           }
         ];

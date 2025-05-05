@@ -1,0 +1,30 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+}
+
+window#waybar {
+  background: transparent;
+  color: #cdd6f4;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  border: none;
+  background: transparent;
+  color: #89b4fa;
+}
+
+#clock, #weather, #cpu, #memory, #network, #pulseaudio, #tray {
+  padding: 0 10px;
+  margin: 0 2px;
+  border-radius: 8px;
+  background-color: rgba(30, 30, 46, 0.85);
+}
+
+#clock { color: #fab387; }
+#weather { color: #94e2d5; }
+#cpu { color: #f38ba8; }
+#memory { color: #cba6f7; }
+#network { color: #89dceb; }
+#pulseaudio { color: #a6e3a1; }
